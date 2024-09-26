@@ -48,7 +48,6 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix",
-    "engines": { "node": "20.x" }
   },
   "lint-staged": {
     "*.js": [
